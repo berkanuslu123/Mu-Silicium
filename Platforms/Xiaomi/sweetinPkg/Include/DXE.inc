@@ -54,8 +54,8 @@
   INF Binaries/sweet_k6a/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/SdccDxe/SdccDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
-  INF Binaries/sweet_k6a/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
-  INF Binaries/sweet_k6a/QcomPkg/Drivers/AW8624Dxe/AW8624Dxe.inf
+#  INF Binaries/sweet_k6a/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
+#  INF Binaries/sweet_k6a/QcomPkg/Drivers/AW8624Dxe/AW8624Dxe.inf
 
 !if $(USE_CUSTOM_DISPLAY_DRIVER) == 1
   INF Binaries/sweet_k6a/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
