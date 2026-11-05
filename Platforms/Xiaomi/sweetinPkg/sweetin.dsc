@@ -32,11 +32,6 @@
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000
 
   #
-  # DXE imaj korumasi kapatilir (MMU tablo ayiklama penceresinde cakisma testi)
-  #
-  gEfiMdeModulePkgTokenSpaceGuid.PcdImageProtectionPolicy|0x0
-
-  #
   # UEFI Stack
   #
   gArmPlatformTokenSpaceGuid.PcdCPUCoresStackBase|0x9FF90000
