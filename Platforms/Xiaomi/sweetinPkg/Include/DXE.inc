@@ -90,5 +90,5 @@
 
   INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
 
-  INF Binaries/sweet_k6a/QcomPkg/Drivers/PILDxe/PILDxe.inf
+#  INF Binaries/sweet_k6a/QcomPkg/Drivers/PILDxe/PILDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxeLA.inf
