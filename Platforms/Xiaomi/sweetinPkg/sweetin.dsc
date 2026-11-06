@@ -58,6 +58,13 @@
   #
   gQcomPkgTokenSpaceGuid.PcdPlatformType|"LA"
 
+  #
+  # Boot text "sessiz mod" (okunabilirlik): sadece ERROR + WARN + INFO.
+  # "Loading driver at ..." (LOAD) ve diger spam kapatilir; UFS/USB hata
+  # satirlari ekranda kisa ve okunabilir kalicak (diag amacli).
+  #
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x80000043
+
 [LibraryClasses]
   #
   # Memory Libraries
