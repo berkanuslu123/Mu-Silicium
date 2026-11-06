@@ -47,7 +47,7 @@
 
   INF Binaries/sweet_k6a/QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/ClockDxe/ClockDxe.inf
-  INF Binaries/sweet_k6a/QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.inf
+  INF Binaries/surya/QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/HWIODxe/HWIODxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/GpiDxe/GpiDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/I2CDxe/I2CDxe.inf
@@ -83,7 +83,7 @@
 
   INF Binaries/sweet_k6a/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/UsbDeviceDxe/UsbDeviceDxe.inf
-  INF Binaries/sweet_k6a/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf
+  INF Binaries/surya/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/HashDxe/HashDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/CipherDxe/CipherDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/RNGDxe/RngDxe.inf
