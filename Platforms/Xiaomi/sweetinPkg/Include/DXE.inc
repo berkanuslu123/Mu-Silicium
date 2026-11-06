@@ -67,10 +67,10 @@
 
   INF Binaries/sweet_k6a/QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.inf
-  INF Binaries/sweet_k6a/QcomPkg/Drivers/PmicDxe/PmicDxeLa.inf
+  INF Binaries/surya/QcomPkg/Drivers/PmicDxe/PmicDxeLa.inf
 #  INF Binaries/sweet_k6a/QcomPkg/Drivers/ChargerExDxe/ChargerExDxe.inf
 #  INF Binaries/sweet_k6a/QcomPkg/Drivers/QcomChargerDxe/QcomChargerDxeLA.inf
-  INF Binaries/sweet_k6a/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf
+  INF Binaries/surya/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/AdcDxe/AdcDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/TsensDxe/TsensDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/LimitsDxe/LimitsDxe.inf
