@@ -59,11 +59,14 @@
   gQcomPkgTokenSpaceGuid.PcdPlatformType|"LA"
 
   #
-  # Boot text "sessiz mod" (okunabilirlik): sadece ERROR + WARN + INFO.
-  # "Loading driver at ..." (LOAD) ve diger spam kapatilir; UFS/USB hata
-  # satirlari ekranda kisa ve okunabilir kalicak (diag amacli).
+  # Boot text "sessiz mod" (okunabilirlik): DEBUG_ERROR (bit31) + DEBUG_WARN (bit2).
+  # Daikkana: bu fork'un DebugLib.h bitleri farkli (DEBUG_ERROR=0x80000000,
+  # DEBUG_LOAD=0x4, DEBUG_INFO=0x40). DxeCore "Loading driver at ..." satirini
+  # DEBUG_INFO|DEBUG_LOAD ile basar -> INFO acik kalirsa spam DEVAM eder.
+  # Bu yuzden INFO da kapali; yalniz ERROR+WARN. UFS/USB hata satirlari ikili
+  # surucu magmasindan gelir (kendi cevrilmis maskeleri ERROR bitli) -> kaybolmaz.
   #
-  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x80000043
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x80000003
 
 [LibraryClasses]
   #
