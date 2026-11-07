@@ -204,8 +204,6 @@ VOID
 EFIAPI
 PlatformBootManagerUnableToBoot ()
 {
-  EFI_STATUS Status;
-
   // Execute Secondary Unable To Boot
   DeviceBootManagerUnableToBoot ();
 
