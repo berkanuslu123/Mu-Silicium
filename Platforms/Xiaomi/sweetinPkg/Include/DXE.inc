@@ -53,8 +53,8 @@
   INF Binaries/sweet_k6a/QcomPkg/Drivers/I2CDxe/I2CDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf
   INF Binaries/sweet_k6a/QcomPkg/Drivers/SdccDxe/SdccDxe.inf
-#  INF Binaries/sweet_k6a/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
-  INF Binaries/surya/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
+  INF Binaries/sweet_k6a/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
+#  INF Binaries/surya/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
   INF Binaries/surya/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
 #  INF Binaries/sweet_k6a/QcomPkg/Drivers/AW8624Dxe/AW8624Dxe.inf
 
