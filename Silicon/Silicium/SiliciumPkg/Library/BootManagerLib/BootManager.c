@@ -106,10 +106,12 @@ PlatformBootManagerAfterConsole ()
   PostGopSetup (&GopProtocol);
 
   // Display Boot Logo
-  Status = DisplayBootGraphic (BG_SYSTEM_LOGO);
-  if (EFI_ERROR (Status)) {
-    DEBUG ((EFI_D_ERROR, "%a: Failed to Display Boot Logo! Status = %r\n", __FUNCTION__, Status));
-  }
+  // [sweetin DIAG] Boot logosu KAPATILDI: DXE DEBUG metni ekranda kalicak.
+  // (logo, konsol yazisinin USTUNE basiyor -> okuma penceresi yok oluyor)
+  // Status = DisplayBootGraphic (BG_SYSTEM_LOGO);
+  // if (EFI_ERROR (Status)) {
+  //   DEBUG ((EFI_D_ERROR, "%a: Failed to Display Boot Logo! Status = %r\n", __FUNCTION__, Status));
+  // }
 
   // Register Key Callback
   Status = RegisterKeyCallback ((EFI_DEVICE_PATH_PROTOCOL *)&KeypadDevicePath);
@@ -208,11 +210,9 @@ PlatformBootManagerUnableToBoot ()
   DeviceBootManagerUnableToBoot ();
 
   // Display No Boot OS Logo
-  Status = DisplayBootGraphic (BG_NO_BOOT_OS);
-  if (EFI_ERROR (Status)) {
-    DEBUG ((EFI_D_ERROR, "%a: Failed to Display No Boot OS Logo! Status = %r\n", __FUNCTION__, Status));
-    Print (L"No Operating System Found! Please make sure that an OS is Installed.\n");
-  }
+  // [sweetin DIAG] No-boot logosu da KAPATILDI; metin ekranda kalicak ve
+  // 10sn Stall boyunca son satirlar okunabilir olacak.
+  Print (L"No Operating System Found! Please make sure that an OS is Installed.\n");
 
   // Wait 10s
   gBS->Stall (10000000);
